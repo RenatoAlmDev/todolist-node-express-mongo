@@ -4,3 +4,7 @@ E no local de "destino", transformar para que seja informado como variável.
 Ex.: <%= title %>>
 colocar %- o ejs vai inserir uma partial
 colocar %= ele vai "renderizar" o que pede
+
+
+methodOverride é um parâmetro que vai na URL:
+url: "/checklists?_method=post"
